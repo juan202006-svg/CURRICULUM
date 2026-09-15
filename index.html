@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Juan | Portafolio</title>
+        <meta name="description" content="Portafolio personal de Juan, desarrollador web." />
+        <meta name="author" content="Juan" />
+        <meta name="theme-color" content="#0A2C1B" />
+        <link rel="icon" type="image/jpeg" href="img/icon-port.jpeg" />
+        <link rel="apple-touch-icon" href="img/icon-port.jpeg" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container nav">
+                <a href="#inicio" class="brand"><img src="img/icon-port.jpeg" alt="Logo" /><span>Juan</span></a>
+                <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+                <nav id="menu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="inicio">
+                <div class="container hero-grid">
+                    <div class="hero-text">
+                        <p class="eyebrow">Hola, soy Juan 👋</p>
+                        <h1>Me gusta convertir ideas en cosas que realmente funcionen.</h1>
+                        <p class="intro">
+                            Soy desarrollador web. Disfruto construir plataformas, resolver problemas con código y
+                            mejorar esos pequeños detalles que hacen que una aplicación se sienta rápida, clara y
+                            agradable de usar.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#proyectos" class="btn primary">Ver lo que he hecho</a>
+                            <a href="#contacto" class="btn secondary">Hablemos</a>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/juan202006-svg" target="_blank" rel="noopener">GitHub ↗</a>
+                            <a href="mailto:correo@ejemplo.com">Correo ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="photo-wrap">
+                        <div class="photo-box"><img src="img/perfil.jpg" alt="Foto de Juan" /></div>
+                        <div class="availability"><span></span>Disponible para proyectos</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="sobre-mi">
+                <div class="container about-grid">
+                    <div>
+                        <p class="section-label">Sobre mí</p>
+                        <h2>No empecé programando porque quisiera hacer páginas bonitas.</h2>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            Empecé porque me gustaba entender por qué las cosas funcionaban como funcionaban. Después
+                            llegó la curiosidad por cambiarlas, automatizarlas y hacerlas un poco mejores.
+                        </p>
+                        <p>
+                            Hoy trabajo principalmente con desarrollo web, PHP, JavaScript y bases de datos. Me gusta
+                            involucrarme en proyectos donde hay procesos reales que mejorar, no solamente pantallas que
+                            llenar.
+                        </p>
+                        <p>
+                            También disfruto aprender sobre herramientas nuevas, romper cosas en entornos de prueba y
+                            encontrar una forma más sencilla de volverlas a construir.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section work">
+                <div class="container">
+                    <p class="section-label">Lo que uso</p>
+                    <div class="stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span
+                        ><span>PostgreSQL</span><span>Git</span><span>GitHub</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects section" id="proyectos">
+                <div class="container">
+                    <div class="section-head">
+                        <div>
+                            <p class="section-label">Proyectos</p>
+                            <h2>Algunas cosas en las que he trabajado.</h2>
+                        </div>
+                        <a href="https://github.com/juan202006-svg" target="_blank" rel="noopener">Ver GitHub ↗</a>
+                    </div>
+
+                    <div class="project-list">
+                        <article class="project">
+                            <div class="project-number">01</div>
+                            <div class="project-info">
+                                <h3>Plataforma de gestión</h3>
+                                <p>
+                                    Un sistema web pensado para organizar procesos, usuarios, documentos e información
+                                    que antes estaba dispersa en varios lugares.
+                                </p>
+                                <div class="tags"><span>PHP</span><span>JavaScript</span><span>MySQL</span></div>
+                            </div>
+                            <a href="#">Ver proyecto ↗</a>
+                        </article>
+
+                        <article class="project">
+                            <div class="project-number">02</div>
+                            <div class="project-info">
+                                <h3>Consulta y administración de datos</h3>
+                                <p>
+                                    Una interfaz para encontrar información rápidamente, trabajar con formularios
+                                    grandes y hacer consultas sin complicar al usuario.
+                                </p>
+                                <div class="tags"><span>JavaScript</span><span>PostgreSQL</span><span>UX</span></div>
+                            </div>
+                            <a href="#">Ver proyecto ↗</a>
+                        </article>
+
+                        <article class="project">
+                            <div class="project-number">03</div>
+                            <div class="project-info">
+                                <h3>Automatización de documentos</h3>
+                                <p>
+                                    Generación y manejo de documentos desde una aplicación web, conservando plantillas,
+                                    datos y procesos internos.
+                                </p>
+                                <div class="tags"><span>PHP</span><span>PDF</span><span>Backend</span></div>
+                            </div>
+                            <a href="#">Ver proyecto ↗</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contacto">
+                <div class="container contact-grid">
+                    <div>
+                        <p class="section-label light">Contacto</p>
+                        <h2>Si tienes una idea, podemos hablar de ella.</h2>
+                    </div>
+                    <div>
+                        <p>
+                            No hace falta tener todo definido. A veces una buena conversación es suficiente para saber
+                            por dónde empezar.
+                        </p>
+                        <a class="mail" href="mailto:correo@ejemplo.com">correo@ejemplo.com ↗</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container footer-content">
+                <span>Juan — <span id="year"></span></span>
+                <span>Hecho con código, café y bastante curiosgit aidad.</span>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
